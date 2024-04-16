@@ -4,3 +4,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.task-header-1{
+    width: 100%;
+    display: flex;
+    padding-top: 16px;
+    
+}

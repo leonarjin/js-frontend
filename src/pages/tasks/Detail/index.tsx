@@ -37,7 +37,7 @@ findTask();
     return(
         <div className="container">
             <div className="task-header">
-                <h1>Detalhes da Tarefa</h1>
+                <h1>Detalhes da Iniciativa</h1>
                 <Button variant="dark" size="sm" onClick={back}>Voltar</Button >
             </div>
             <br />

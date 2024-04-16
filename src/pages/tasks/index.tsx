@@ -62,11 +62,15 @@ const Tasks: React.FC = () => {
         <div className="container">
             <br />
             <div className="task-header">
-                <h1>Tarefas</h1>
-                <Button variant="dark" size="sm" onClick={newTask}>
+                <h1>Iniciativas</h1>
+                <Button className="btn" variant="dark" size="sm" onClick={newTask}>
                     Nova Tarefa
                 </Button>
             </div>
+            <div className="task-header-1">
+            <p> Existem muitas iniciativas ESG que sua empresa pode adotar. Escolha priorizar diferentes aspectos de acordo com sua missão, valores e contexto operacional.</p>
+            </div>
+
             <br />
             <Table striped bordered hover className="text-center">
                 <thead>
