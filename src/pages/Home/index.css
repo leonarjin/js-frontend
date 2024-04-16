@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 h1 {
     color: #376a55;
     font-weight: 700;
     font-size: 36px;
+    
 }
 
 p {
@@ -21,23 +23,27 @@ p {
 .div-home-global {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
-.div-home-1{
+.div-home-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    padding: 48px;
+    padding: 10%;
+    text-align: center;
 }
 
 .div-home-2 {
+    display: flex;
     width: 100%;
-}
-
-.div-home-2 {
+    height: 100dvh;
     background-image: url(https://i.imgur.com/dv6cdID.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px; 
+    /* height: 300px; */
 }
 
 @media (min-width: 768px) {

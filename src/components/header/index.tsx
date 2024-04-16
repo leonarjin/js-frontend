@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">Tarefas</Navbar.Brand>
+                <Navbar.Brand href="#home">ESG.web</Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
