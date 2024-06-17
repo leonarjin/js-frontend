@@ -9,7 +9,7 @@ const Login: React.FC = () => {
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://localhost:5432/api/login', { // Altere a URL conforme necessário
+      const response = await fetch('https://js-backend-iota.vercel.app/api/login', { // Altere a URL conforme necessário
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
