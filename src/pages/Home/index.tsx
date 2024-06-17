@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonHome from "../../components/Button";
-import "../Home/index.css"
+import "./index.css"
 
 const Home: React.FC = () => {
     return <main>
