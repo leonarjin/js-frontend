@@ -17,7 +17,7 @@ const Dashboard: React.FC = () => {
     // Buscar os dados do usuário
     const fetchUser = async () => {
       try {
-        const response = await fetch('http://localhost:5432/api/profile', { // Ajuste a URL conforme necessário
+        const response = await fetch('https://js-backend-iota.vercel.app/api/profile', { // Ajuste a URL conforme necessário
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
